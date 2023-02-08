@@ -1,17 +1,18 @@
-## My Project
+# Welcome to your CDK Java project!
 
-TODO: Fill this README out!
+This is a blank project for CDK development with Java.
 
-Be sure to:
+The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-* Change the title in this README
-* Edit your repository description on GitHub
+It is a [Maven](https://maven.apache.org/) based project, so you can open this project with any Maven compatible Java IDE to build and run tests.
 
-## Security
+## Useful commands
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+ * `mvn package`     compile and run tests
+ * `cdk ls`          list all stacks in the app
+ * `cdk synth`       emits the synthesized CloudFormation template
+ * `cdk deploy`      deploy this stack to your default AWS account/region
+ * `cdk diff`        compare deployed stack with current state
+ * `cdk docs`        open CDK documentation
 
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
+Enjoy!
